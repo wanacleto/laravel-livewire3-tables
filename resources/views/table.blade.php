@@ -15,13 +15,13 @@
         @endif
     </div>
 
-    <div class="card mb-3">
+    <div class="card mb-3 bg-white border-0 rounded-3 mb-4">
         @if($models->isEmpty())
             <div class="card-body">
                 {{ __('No results to display.') }}
             </div>
         @else
-            <div class="card-body p-0">
+            <div class="card-body p-0 default-table-area all-products">
                 <div class="table-responsive">
                     <table class="table {{ $table_class }} mb-0">
                         <thead class="{{ $thead_class }}">
