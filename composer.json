@@ -3,6 +3,12 @@
     "description": "A dynamic, responsive Laravel Livewire 3 table component with searching, sorting, checkboxes, and pagination.",
     "homepage": "https://github.com/wanacleto/laravel-livewire3-tables",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/wanacleto/laravel-livewire3-tables"
+        }
+    ],
     "authors": [
         {
             "name": "Kevin Dion",
@@ -23,10 +29,12 @@
         }
     },
     "require": {
+        "wanacleto/laravel-livewire3-tables": "*",
         "php": ">=8.0",
         "livewire/livewire": "^3.0",
         "laravel/framework": "^9.0|^10.0"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
+    
 }
