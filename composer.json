@@ -29,10 +29,10 @@
         }
     },
     "require": {
-        "wanacleto/laravel-livewire3-tables": "*",
+        "laravel/framework": "^10.0",
+        "wanacleto/laravel-livewire3-tables": "dev-master",
         "php": ">=8.0",
-        "livewire/livewire": "^3.0",
-        "laravel/framework": "^9.0|^10.0"
+        "livewire/livewire": "^3.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
