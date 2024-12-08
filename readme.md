@@ -14,7 +14,7 @@ Make sure you've [installed Laravel Livewire](https://laravel-livewire.com/docs/
 
 Installing this package via composer:
 
-    composer require kdion4891/laravel-livewire-tables
+    composer require wanacleto/laravel-livewire3-tables
     
 This package was designed to work well with [Laravel frontend scaffolding](https://laravel.com/docs/master/frontend).
 
@@ -48,7 +48,7 @@ Using the `make` command:
 
     php artisan make:table UserTable --model=User
 
-This creates your new table component in the `app/Http/Livewire` folder.
+This creates your new table component in the `app/Livewire` folder.
 
 After making a component, you may want to edit the `query` and `column` methods:
 

@@ -5,7 +5,7 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fa fa-search"></i></span>
                 </div>
-                <input type="search" class="form-control" placeholder="{{ __('Search') }}" wire:model="search">
+                <input type="search" class="form-control" placeholder="{{ __('Search') }}" wire:model.live.debounce.100ms="search">
             </div>
         </div>
         @if($header_view)
