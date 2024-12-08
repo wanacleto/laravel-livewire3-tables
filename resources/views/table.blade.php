@@ -1,11 +1,9 @@
 <div>
     <div class="row justify-content-between">
         <div class="col-auto order-last order-md-first">
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="fa fa-search"></i></span>
-                </div>
-                <input type="search" class="form-control" placeholder="{{ __('Search') }}" wire:model.live.debounce.100ms="search">
+            <div class="form-group position-relative w-75 mb-3">
+                <input type="search" class="form-control text-dark ps-5 h-55" placeholder="Search" wire:model.live.debounce.100ms="search">
+                <i class="material-symbols-outlined position-absolute top-50 start-0 translate-middle-y fs-20 ps-20"> search</i>
             </div>
         </div>
         @if($header_view)
