@@ -1,4 +1,4 @@
-# Laravel Livewire Tables
+# Laravel Livewire3 Tables
 
 ![Laravel Livewire Tables](https://i.imgur.com/Jg5WPOa.gif)
 
