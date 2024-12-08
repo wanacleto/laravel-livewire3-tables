@@ -1,6 +1,6 @@
 <?php
 
-namespace Kdion4891\LaravelLivewireTables;
+namespace Wanacleto\LaravelLivewireTables;
 
 use Illuminate\Support\Str;
 

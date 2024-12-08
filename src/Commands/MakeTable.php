@@ -1,6 +1,6 @@
 <?php
 
-namespace Kdion4891\LaravelLivewireTables\Commands;
+namespace Wanacleto\LaravelLivewireTables\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;

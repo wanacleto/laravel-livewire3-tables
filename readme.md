@@ -1,4 +1,4 @@
-# Laravel Livewire3 Tables
+# Laravel Livewire Tables
 
 ![Laravel Livewire Tables](https://i.imgur.com/Jg5WPOa.gif)
 
@@ -48,7 +48,7 @@ Using the `make` command:
 
     php artisan make:table UserTable --model=User
 
-This creates your new table component in the `app/Livewire` folder.
+This creates your new table component in the `app/Http/Livewire` folder.
 
 After making a component, you may want to edit the `query` and `column` methods:
 

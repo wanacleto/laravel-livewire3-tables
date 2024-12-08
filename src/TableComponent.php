@@ -1,10 +1,10 @@
 <?php
 
-namespace Kdion4891\LaravelLivewireTables;
+namespace Wanacleto\LaravelLivewireTables;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
-use Kdion4891\LaravelLivewireTables\Traits\ThanksYajra;
+use Wanacleto\LaravelLivewireTables\Traits\ThanksYajra;
 use Livewire\Component;
 use Livewire\WithPagination;
 
@@ -57,7 +57,7 @@ class TableComponent extends Component
     }
 
     /**
-     * @return \Kdion4891\LaravelLivewireTables\Column[]
+     * @return \Wanacleto\LaravelLivewireTables\Column[]
      */
     public function columns()
     {
@@ -161,7 +161,7 @@ class TableComponent extends Component
     }
 
     /**
-     * @return null|\Kdion4891\LaravelLivewireTables\Column
+     * @return null|\Wanacleto\LaravelLivewireTables\Column
      */
     protected function getColumnByAttribute($attribute)
     {

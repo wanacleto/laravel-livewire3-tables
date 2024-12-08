@@ -3,8 +3,8 @@
 namespace App\Livewire;
 
 use App\DummyModel;
-use Kdion4891\LaravelLivewireTables\Column;
-use Kdion4891\LaravelLivewireTables\TableComponent;
+use Wanacleto\LaravelLivewireTables\Column;
+use Wanacleto\LaravelLivewireTables\TableComponent;
 
 class DummyComponent extends TableComponent
 {

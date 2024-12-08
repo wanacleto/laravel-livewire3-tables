@@ -4,7 +4,7 @@
 // https://github.com/yajra/laravel-datatables/blob/9.0/src/EloquentDataTable.php
 // Yajra, you're a genius!
 
-namespace Kdion4891\LaravelLivewireTables;
+namespace Wanacleto\LaravelLivewireTables;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

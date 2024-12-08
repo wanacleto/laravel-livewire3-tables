@@ -1,9 +1,9 @@
 <?php
 
-namespace Kdion4891\LaravelLivewireTables\Providers;
+namespace Wanacleto\LaravelLivewireTables\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Kdion4891\LaravelLivewireTables\Commands\MakeTable;
+use Wanacleto\LaravelLivewireTables\Commands\MakeTable;
 
 class TableServiceProvider extends ServiceProvider
 {

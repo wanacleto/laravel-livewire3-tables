@@ -1,6 +1,6 @@
 {
-    "name": "kdion4891/laravel-livewire-tables",
-    "description": "A dynamic, responsive Laravel Livewire table component with searching, sorting, checkboxes, and pagination.",
+    "name": "wanacleto/laravel-livewire3-tables",
+    "description": "A dynamic, responsive Laravel Livewire 3 table component with searching, sorting, checkboxes, and pagination.",
     "homepage": "https://github.com/wanacleto/laravel-livewire3-tables",
     "license": "MIT",
     "authors": [
@@ -12,14 +12,21 @@
     ],
     "autoload": {
         "psr-4": {
-            "Kdion4891\\LaravelLivewireTables\\": "src"
+            "Wanacleto\\LaravelLivewireTables\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Kdion4891\\LaravelLivewireTables\\Providers\\TableServiceProvider"
+                "Wanacleto\\LaravelLivewireTables\\Providers\\TableServiceProvider"
             ]
         }
-    }
+    },
+    "require": {
+        "php": ">=8.0",
+        "livewire/livewire": "^3.0",
+        "laravel/framework": "^9.0|^10.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
